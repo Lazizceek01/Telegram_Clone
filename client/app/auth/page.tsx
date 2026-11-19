@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaTelegram } from "react-icons/fa";
+import StateAuth from './_component/state'
+import Social from './_component/social'
 
 export default function page() {
 	return (
@@ -11,7 +13,8 @@ export default function page() {
 			<p className="text-center text-muted-foreground text-sm">
 				Telegram is a messiging app with a focus on speed and security. It’s super-fast, simple and free.
 			</p>
-			
+			<StateAuth />
+			<Social />
 		</div>
 	)
 }
