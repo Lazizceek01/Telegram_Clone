@@ -10,9 +10,7 @@ export default function page() {
 			<div>
 				<h1 className="text-2xl font-bold">Telegram</h1>
 			</div>
-			<p className="text-center text-muted-foreground text-sm">
-				Telegram is a messiging app with a focus on speed and security. It’s super-fast, simple and free.
-			</p>
+			
 			<StateAuth />
 			<Social />
 		</div>
