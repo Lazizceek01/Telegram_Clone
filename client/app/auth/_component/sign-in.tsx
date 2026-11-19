@@ -44,7 +44,7 @@ export default function SignIn() {
 					</p>
 				)}
 			</div>
-			<Button type="submit" className="bg-blue-500 text-white hover:bg-blue-600">
+			<Button type="submit" className="bg-blue-500 text-white hover:bg-blue-600 w-full" size={"lg"}>
 				Continue
 			</Button>
 		</form>
